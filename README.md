@@ -1,5 +1,11 @@
 # InRhythm Starter Kit
 
+## usage 
+
+```
+npm install ir-starter-kit --save
+```
+
 # License
 The MIT License (MIT)
 
