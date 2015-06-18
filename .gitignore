@@ -1,7 +1,1 @@
-.idea
-.sass-cache
-node_modules
-dist
-bower_components
-build
-npm-debug.log
+node_modules/ir-starter-kit/.gitignore
