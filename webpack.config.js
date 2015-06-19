@@ -1,1 +1,7 @@
-node_modules/ir-starter-kit/webpack.config.js
+module.exports = {
+    context: __dirname + "/app",
+    entry: "./app",
+    output: {
+        filename: "./build/bundle.js"
+    }
+};

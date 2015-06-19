@@ -1,17 +1,25 @@
 {
-  "name": "dev-build",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ir-starter-kit",
+  "version": "0.1.0",
+  "description": "Starter kit for creating modern web applications",
+  "main": "index.js ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "node bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inrhythm/ir-starter-kit.git"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^0.23.0",
-    "eslint-loader": "^0.14.0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inrhythm/ir-starter-kit/issues"
+  },
+  "homepage": "https://github.com/inrhythm/ir-starter-kit",
+  "dependencies": {
     "gulp": "^3.9.0",
-    "ir-starter-kit": "^0.1.0"
+    "gulp-webpack-build": "^0.11.1",
+    "minimist": "^1.1.1",
+    "run-sequence": "^1.1.0"
   }
 }
